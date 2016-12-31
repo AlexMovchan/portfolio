@@ -135,10 +135,11 @@ h1, h2, h3, h4, h5, h6 {
     width: 830px;
 }
 
-#headSection {
+.headSection {
     font-family: cursive;
     color: #fdf7a8;
     text-shadow: 2px 2px 1px black;
+    font-size: 32px;
 
 }
 
