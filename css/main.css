@@ -143,6 +143,16 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
+.skills {
+    padding: 4px;
+    background-color: #fdf7a8;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.skills:hover {
+    background-color: #97c0f8;
+}
 
 #myWorks {
     width: 100%;
@@ -243,16 +253,6 @@ footer {
     background-position: -60px 0;
 }
 
-.skills {
-    padding: 4px;
-    background-color: #fdf7a8;
-    border-radius: 5px;
-    border: 1px solid black;
-}
-
-.skills:hover {
-    background-color: #97c0f8;
-}
 
 
 
