@@ -1,0 +1,257 @@
+body {
+    margin: 0;
+    width: 100%;
+    font-family: 'opensans-regular', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+
+#navbar {
+    width: 100%;
+    display: flex;
+    position: absolute;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+#navbar ul {
+    list-style: none;
+    padding: 0;
+}
+
+#navbar li {
+    display: block;
+    float: left;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 5px;
+    font-size: 22px;
+}
+
+#navbar a:hover {
+    background-color: #141414;
+    color: #fdf7a8;
+    border-radius: 5px;
+}
+
+#home {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    align-items: center;
+    background-image: url(../img/background1.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+#homeInfo{
+    padding: 0 10%;
+    flex: 1 100%;
+    text-align: center;
+}
+
+#homeInfo a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 5px;
+    font-size: 42px;
+}
+
+#homeInfo a:hover{
+    background-color: #141414;
+    color: #fdf7a8;
+    border-radius: 5px;
+}
+
+#homeInfo h1{
+    text-align: center;
+    margin: 10px 50px; 
+    font-size: 45px;
+    color: #fdf7a8;
+    text-shadow: 2px 2px 4px black;
+}
+
+#homeInfo p{
+    text-align: center;
+    margin: 10px 50px; 
+    font-size: 25px;
+    color: #fdf7a8;
+    text-shadow: 2px 2px 4px black;
+}
+
+#arrowDown {
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/arrowDown.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+    border-radius: 50%;
+    transition: 1s;
+}
+
+#arrowDown a{
+    width: inherit;
+    height: inherit;
+    display: block;
+}
+
+
+
+
+
+#aboutMe {
+    width: 100%;
+    background-color: black;   
+}
+
+#aboutMeContainer {
+    width: 85%;
+    margin: auto;
+    padding: 10px 0;
+}
+#aboutMeContainer h2{
+    margin: 0px;
+    color: white;
+    padding-top: 10px;
+    font-size: 45px;
+}
+
+#aboutMeContainer p{
+    color: white;
+    font-size: 25px;
+}
+
+#resumeContainer {
+    margin: auto;
+    width: 830px;
+}
+
+#headSection {
+    font-family: cursive;
+    color: #fdf7a8;
+    text-shadow: 2px 2px 1px black;
+
+}
+
+
+#myWorks {
+    width: 100%;
+    background-color: #8b8b8b;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+#myWorksHeader {
+    flex: 1 100%;
+}
+
+
+
+.project {
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin: 30px;
+    opacity: 0.6;
+}
+
+footer {
+    width: 100%;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    background-color: black;    
+}
+
+.social {
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 10px 30px;
+}
+
+.social a{
+    display: block;
+    width: inherit;
+    height: inherit;
+}
+
+#fb {
+    background-image: url(../img/social.png);
+    background-position: 0 0;
+}
+
+#fb:hover {
+    background-position: 0 60px;
+}
+
+#tw {
+    background-image: url(../img/social.png);
+    background-position: -60px 0;
+}
+
+#tw:hover{
+    background-position: -60px 61px;
+}
+
+#vk {
+    background-image: url(../img/social.png);
+    background-position: -180px 0;
+}
+
+#vk:hover{
+    background-position: -180px 60px;
+}
+
+#in {
+    background-image: url(../img/social.png);
+    background-position: -540px 0;
+}
+
+#in:hover{
+    background-position: -540px 60px;
+}
+
+#google {
+    background-image: url(../img/social.png);
+    background-position: -660px 0;
+}
+
+#google:hover{
+    background-position: -660px 60px;
+}
+
+#git {
+    background-image: url(../img/git1.png);
+    background-position: 0 0;
+}
+
+#git:hover {
+    background-position: -60px 0;
+}
+
+.skills {
+    padding: 4px;
+    background-color: #fdf7a8;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.skills:hover {
+    background-color: #97c0f8;
+}
+
+
+
