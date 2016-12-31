@@ -148,6 +148,7 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #fdf7a8;
     border-radius: 5px;
     border: 1px solid black;
+    font-size: 15px;
 }
 
 .skills:hover {
