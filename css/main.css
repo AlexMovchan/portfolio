@@ -135,6 +135,12 @@ h1, h2, h3, h4, h5, h6 {
     width: 830px;
 }
 
+#resumeContainer2 {
+    display: none;
+    text-align: left;
+    margin: auto;
+}
+
 .headSection {
     font-family: cursive;
     color: #fdf7a8;
@@ -149,10 +155,15 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 5px;
     border: 1px solid black;
     font-size: 15px;
+    line-height: 2; 
 }
 
 .skills:hover {
     background-color: #97c0f8;
+}
+
+.infoResume {
+    font-size: 15px;
 }
 
 #myWorks {
@@ -257,3 +268,48 @@ footer {
 
 
 
+
+@media screen and (max-width: 850px){
+
+#resumeContainer {
+    display: none;
+}
+    
+#resumeContainer2 {
+    display: block;
+}
+
+#homeInfo p {
+    font-size: 18px;
+}
+
+#homeInfo h1 {
+    font-size: 35px;
+}
+    
+#homeInfo a {
+    font-size: 25px;
+}
+
+#aboutMeContainer p {
+    font-size: 18px;
+}
+
+.headSection {
+    font-size: 44px;
+}
+
+.headSection {
+    font-size: 55px;
+}
+
+.skills {
+    font-size: 20px;
+    
+}
+
+.infoResume {
+    font-size: 20px;
+}
+
+}
