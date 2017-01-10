@@ -59,4 +59,21 @@ window.onload = function(){
     work3.onclick = function() {
         window.open('https://alexmovchan.github.io/adaptive1/', '_blank');  
     }
+
+
+
+    var work4 = document.getElementById('work4');
+    work4.onmouseover = function(){
+        work4.style.transform = 'scale(1.2)';
+        work4.style.transition = '1s';
+        work4.style.opacity = '1';
+    }
+    work4.onmouseout = function(){
+        work4.style.transform = 'scale(1.0)';
+        work4.style.transition = '1s';
+        work4.style.opacity = '0.6';
+    }
+    work4.onclick = function() {
+        window.open('https://alexmovchan.github.io/project_brain2/', '_blank');  
+    }
 }
